@@ -1,0 +1,478 @@
+/*css media query start*/
+
+
+
+/****
+ * 
+ * screen resolution: 279px to 319 px
+ * most of the folding phone- galaxy folding phone
+ * 
+ * */
+@media (min-width: 279px) and (max-width: 319px){
+	
+	.header .navbar-toggler{
+		background: #ffc74a;
+    	border-radius: 0px;
+	}
+	.header .navbar-toggler .fa-bars{
+		color: #fff;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link{
+		margin: 0px;
+		font-size: 13px;
+	}
+	.header .img-search{
+		margin: 0px 0px;
+	}
+	.banner{
+		padding: 70px 0px;
+	}
+	.banner h1{
+		font-size: 32px;
+	}
+	.banner p{
+		font-size: 12px;
+	}
+	.banner .banner-button .btn-primary{
+		padding: 7px 12px;
+		font-size: 12px;
+	}
+	.feature{
+		padding: 40px 0px;
+	}
+	.feature h1{
+		font-size: 26px;
+	}
+	.feature .owl-carousel .item h4{
+		font-size: 16px;
+	}
+	.feature .owl-carousel .item p{
+		font-size: 13px;
+	}
+	.want-go{
+		padding: 30px 0px;
+	}
+	.want-go h1{
+		font-size: 26px;
+	}
+	.want-box{
+		margin: 8px 0px 17px;
+	}
+	.w-img{
+		height: 150px;
+		width: 220px;
+	}
+	.want-body h3{
+		font-size: 16px;
+	}
+	.want-body p{
+		font-size: 13px;
+	}
+	.want-btn .btn-primary{
+		padding: 7px 11px;
+		font-size: 12px;
+	}
+	.explore{
+		padding: 40px 0px;
+	}
+	.explore h1{
+		font-size: 28px;
+	}
+	.explore h2{
+		font-size: 22px;
+		text-align: center;
+		margin: -30px 0px 35px;
+	}
+	.explore p{
+		font-size: 13px;
+	}
+	.explore .ex-btn{
+		text-align: center;
+	}
+	.explore .ex-btn .btn-primary{
+		padding: 7px 11px;
+		font-size: 12px;
+		margin: 10px 0px 30px;
+	}
+	.explore .ex-photo{
+		height: 230px;
+		width: 255px;
+	}
+	.crop{
+		padding: 30px 0px;
+	}
+	.crop h1{
+		font-size: 28px;
+	}
+	.crop .crop-btn .btn-primary{
+		padding: 7px 11px;
+		font-size: 12px;
+	}
+	.crop h4{
+		font-size: 13px;
+	}
+	.footer{
+		padding: 15px 0px;
+	}
+	.footer h6{
+		font-size: 13px;
+		margin: 15px 0px 5px;
+	}
+	.footer p{
+		font-size: 11px;
+	}
+
+}
+
+
+/****
+ * 
+ * screen resolution: 320px to 480 px
+ * most of the mobile phone
+ * 
+ * */
+@media (min-width: 320px) and (max-width: 480px){
+	
+	.header .navbar-toggler{
+		background: #ffc74a;
+    	border-radius: 0px;
+	}
+	.header .navbar-toggler .fa-bars{
+		color: #fff;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link{
+		margin: 0px;
+		font-size: 14px;
+	}
+	.header .img-search{
+		margin: 0px 0px;
+	}
+	.banner{
+		padding: 80px 0px;
+	}
+	.banner h1{
+		font-size: 42px;
+	}
+	.banner p{
+		font-size: 16px;
+	}
+	.banner .banner-button .btn-primary{
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+	.feature{
+		padding: 50px 0px;
+	}
+	.feature h1{
+		font-size: 38px;
+	}
+	.feature .owl-carousel .item h4{
+		font-size: 18px;
+	}
+	.feature .owl-carousel .item p{
+		font-size: 14px;
+	}
+	.want-go{
+		padding: 40px 0px;
+	}
+	.want-go h1{
+		font-size: 38px;
+	}
+	.want-box{
+		margin: 10px 0px 20px;
+	}
+	.want-body h3{
+		font-size: 18px;
+	}
+	.want-body p{
+		font-size: 14px;
+	}
+	.want-btn .btn-primary{
+		padding: 8px 12px;
+		font-size: 14px;
+	}
+	.explore{
+		padding: 50px 0px;
+	}
+	.explore h1{
+		font-size: 38px;
+	}
+	.explore h2{
+		font-size: 24px;
+		text-align: center;
+		margin: -30px 0px 35px;
+	}
+	.explore p{
+		font-size: 14px;
+	}
+	.explore .ex-btn{
+		text-align: center;
+	}
+	.explore .ex-btn .btn-primary{
+		padding: 8px 12px;
+		font-size: 14px;
+		margin: 10px 0px 30px;
+	}
+	.explore .ex-photo{
+		height: 350px;
+		width: 365px;
+	}
+	.crop{
+		padding: 40px 0px;
+	}
+	.crop h1{
+		font-size: 38px;
+	}
+	.crop .crop-btn .btn-primary{
+		padding: 8px 12px;
+		font-size: 14px;
+	}
+	.crop h4{
+		font-size: 14px;
+	}
+	.footer{
+		padding: 15px 0px;
+	}
+	.footer h6{
+		font-size: 14px;
+		margin: 15px 0px 5px;
+	}
+	.footer p{
+		font-size: 12px;
+	}
+
+}
+
+/****
+ * 
+ * screen resolution: 481px to 767 px
+ * most of the mobile phone and low resolution tab
+ * 
+ * */
+@media (min-width: 481px) and (max-width: 767px){
+
+	.header .navbar-toggler{
+		background: #ffc74a;
+    	border-radius: 0px;
+	}
+	.header .navbar-toggler .fa-bars{
+		color: #fff;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link{
+		margin: 0px;
+		font-size: 15px;
+	}
+	.header .img-search{
+		margin: 0px 0px;
+	}
+	.banner{
+		padding: 90px 0px;
+	}
+	.banner h1{
+		font-size: 46px;
+	}
+	.banner p{
+		font-size: 16px;
+	}
+	.banner .banner-button .btn-primary{
+		padding: 12px 17px;
+		font-size: 14px;
+	}
+	.feature{
+		padding: 60px 0px;
+	}
+	.feature h1{
+		font-size: 42px;
+	}
+	.feature .owl-carousel .item h4{
+		font-size: 20px;
+	}
+	.feature .owl-carousel .item p{
+		font-size: 15px;
+	}
+	.want-go{
+		padding: 50px 0px;
+	}
+	.want-go h1{
+		font-size: 38px;
+	}
+	.want-box{
+		margin: 20px 0px 30px;
+	}
+	.want-body h3{
+		font-size: 20px;
+	}
+	.want-body p{
+		font-size: 15px;
+	}
+	.want-btn .btn-primary{
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	.explore{
+		padding: 60px 0px;
+	}
+	.explore h1{
+		font-size: 42px;
+	}
+	.explore h2{
+		font-size: 26px;
+		text-align: center;
+		margin: -40px 0px 45px;
+	}
+	.explore p{
+		font-size: 14px;
+	}
+	.explore .ex-btn{
+		text-align: center;
+	}
+	.explore .ex-btn .btn-primary{
+		padding: 10px 15px;
+		font-size: 14px;
+		margin: 20px 0px 40px;
+	}
+	.explore .ex-photo{
+		height: 400px;
+		width: 463px;
+	}
+	.crop{
+		padding: 50px 0px;
+	}
+	.crop h1{
+		font-size: 42px;
+	}
+	.crop .crop-btn .btn-primary{
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+	.crop h4{
+		font-size: 15px;
+	}
+	.footer{
+		padding: 20px 0px;
+	}
+	.footer h6{
+		font-size: 15px;
+		margin: 15px 0px 5px;
+	}
+	.footer p{
+		font-size: 13px;
+	}
+
+}
+
+/****
+ * 
+ * screen resolution: 768px to 1024 px
+ * most of the tablests, notebook, ipad
+ * 
+ * */
+@media (min-width: 768px) and (max-width: 1024px){
+
+	.header .navbar-toggler{
+		background: #ffc74a;
+    	border-radius: 0px;
+	}
+	.header .navbar-toggler .fa-bars{
+		color: #fff;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link{
+		margin: 0px;
+		font-size: 16px;
+	}
+	.header .img-search{
+		margin: 0px 0px;
+	}
+	.banner{
+		padding: 110px 0px;
+	}
+	.banner h1{
+		font-size: 52px;
+	}
+	.banner p{
+		font-size: 16px;
+	}
+	.banner .banner-button .btn-primary{
+		padding: 12px 20px;
+		font-size: 14px;
+	}
+	.feature{
+		padding: 80px 0px;
+	}
+	.feature h1{
+		font-size: 44px;
+	}
+	.feature .owl-carousel .item h4{
+		font-size: 20px;
+	}
+	.feature .owl-carousel .item p{
+		font-size: 14px;
+	}
+	.want-go{
+		padding: 60px 0px;
+	}
+	.want-go h1{
+		font-size: 44px;
+	}
+	.want-box{
+		margin: 30px 0px 40px;
+	}
+	.want-body h3{
+		font-size: 20px;
+	}
+	.want-body p{
+		font-size: 15px;
+	}
+	.want-btn .btn-primary{
+		padding: 12px 25px;
+		font-size: 14px;
+	}
+	.explore{
+		padding: 70px 0px;
+	}
+	.explore h1{
+		font-size: 44px;
+	}
+	.explore h2{
+		font-size: 28px;
+		text-align: center;
+		margin: -50px 0px 55px;
+	}
+	.explore p{
+		font-size: 14px;
+	}
+	.explore .ex-btn{
+		text-align: center;
+	}
+	.explore .ex-btn .btn-primary{
+		padding: 12px 20px;
+		font-size: 14px;
+		margin: 30px 0px 50px;
+	}
+	.explore .ex-img{
+		text-align: center;
+	}
+	.crop{
+		padding: 60px 0px;
+	}
+	.crop h1{
+		font-size: 44px;
+	}
+	.crop .crop-btn .btn-primary{
+		padding: 12px 20px;
+		font-size: 14px;
+	}
+	.crop h4{
+		font-size: 16px;
+	}
+	.footer{
+		padding: 25px 0px;
+	}
+	.footer h6{
+		font-size: 16px;
+		margin: 15px 0px 5px;
+	}
+	.footer p{
+		font-size: 14px;
+	}
+}
